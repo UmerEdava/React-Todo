@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import {Header,Footer} from './Home'
+import Contact from './Contact'
+import Welcome from './Welcome'
+import Counter from './Counter'
+import Counternew from './Counternew'
+import List from './List'
+import Todo from './Todo'
 
 function App() {
+  var age = 17;     
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+    <div>
+      <Todo/>
     </div>
-  );
+      
+  )
 }
 
 export default App;
